@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1350px;
+  height: 1050px;
+}
+.corona {
+  font-size: 50px;
+  font-weight: 700;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 214, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(142, 88, 46);
+  width: 90%;
+  height: 85%;
+}
+.blackboard {
+  background-color: rgb(23, 135, 72);
+  width: 95%;
+  height: 90%;
+}
+.picture {
+  width: 256px;
+  height: 256px;
+  margin-left: 23px;
+
+  transition: background-color 0.5s ease-in-out;
+}
+.picture:nth-child(10) {
+  width: 800px;
+  height: 256px;
+  margin-left: 23px;
+
+  transition: background-color 0.5s ease-in-out;
+}
+.picture:hover {
+  background-image: none;
+  background-color: red;
+}
+.corona1 {
+  display: inline-block;
+  background-image: url("images/1.png");
+}
+.corona2 {
+  display: inline-block;
+  background-image: url("images/2.png");
+}
+.corona3 {
+  display: inline-block;
+  background-image: url("images/3.png");
+}
+.corona4 {
+  display: inline-block;
+  background-image: url("images/4.png");
+}
+.corona5 {
+  display: inline-block;
+  background-image: url("images/5.png");
+}
+.corona6 {
+  display: inline-block;
+  background-image: url("images/6.png");
+}
+.corona7 {
+  display: inline-block;
+  background-image: url("images/7.png");
+}
+.corona8 {
+  display: inline-block;
+  background-image: url("images/8.png");
+}
+.corona9 {
+  display: inline-block;
+  background-image: url("images/9.png");
+}
+.corona10 {
+  display: inline-block;
+  background-color: khaki;
+}
